@@ -1,3 +1,22 @@
+/* 
+ * Copyright 2012 Drew Johnson
+ * 
+ * This file is part of Rombitz.
+ * 
+ * Rombitz is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *  
+ * Rombitz is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Rombitz.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 import java.util.Scanner;
 
 public class Game {
@@ -53,9 +72,10 @@ public class Game {
 		currentLoc = escapePod;
 		
 		System.out.println("\n===============================================================================");
-		System.out.println("==  Rombitz: Galactic Investigator (Working Title) - Version 0.1.0           ==");
-		System.out.println("==  Story and Programming by Drew Masterman Johnson                          ==");
-		System.out.println("==  Software under GNU General Public License v3 - June 2012                 ==");
+		System.out.println("==      Rombitz: Galactic Investigator (Working Title) - Version 0.1.1       ==");
+		System.out.println("==                   Story and Programming by Drew Johnson                   ==");
+		System.out.println("==   Program source available at https://github.com/Pengor/Text-Adventure    ==");
+		System.out.println("==                        Copyright 2012 Drew Johnson                        ==");
 		System.out.println("===============================================================================");
 		System.out.println("\nOur story takes place at an exciting time in our history, where intergalactic \n" +
 						   "space travel is in its infancy. Travel between planetary systems, however, is \n" +
